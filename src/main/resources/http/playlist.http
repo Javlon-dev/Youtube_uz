@@ -1,0 +1,43 @@
+### Get
+GET http://localhost:8080/playlist/ba9adbd6-bb1b-4433-a3c3-e7dab09672af
+
+### Create
+POST http://localhost:8080/playlist/public/a2116ff1-246d-4a5c-8240-faca64efcad3
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjMDIyYjk1YS0yMzU1LTRlZDktODBhOC1mN2RlZjExNzFmNzUiLCJpYXQiOjE2NTMyMzAyMjgsImV4cCI6MTY1MzU5MDIyOCwiaXNzIjoibWF6Z2kgcHJvZHVjdGlvbiIsInJvbGUiOiJBRE1JTiJ9.myP0-yrcQJUo3mH5BEas25DpSHxj1mZ9f1mDhPDu2rk
+
+{
+  "name": "",
+  "description": "",
+  "orderNum": 1
+}
+
+### Update
+PUT http://localhost:8080/playlist/public/f1f0d5c8-b411-4756-b788-805943e5523e
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjMDIyYjk1YS0yMzU1LTRlZDktODBhOC1mN2RlZjExNzFmNzUiLCJpYXQiOjE2NTMyMzAyMjgsImV4cCI6MTY1MzU5MDIyOCwiaXNzIjoibWF6Z2kgcHJvZHVjdGlvbiIsInJvbGUiOiJBRE1JTiJ9.myP0-yrcQJUo3mH5BEas25DpSHxj1mZ9f1mDhPDu2rk
+
+{
+  "name": "",
+  "orderNum": 1
+}
+
+### Get By Channel
+GET http://localhost:8080/playlist/public/list/0b3ae787-ba79-49d2-9180-1f4f22149a3d
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjMDIyYjk1YS0yMzU1LTRlZDktODBhOC1mN2RlZjExNzFmNzUiLCJpYXQiOjE2NTMyMzAyMjgsImV4cCI6MTY1MzU5MDIyOCwiaXNzIjoibWF6Z2kgcHJvZHVjdGlvbiIsInJvbGUiOiJBRE1JTiJ9.myP0-yrcQJUo3mH5BEas25DpSHxj1mZ9f1mDhPDu2rk
+
+### Change Status
+PUT http://localhost:8080/playlist/public/status/f1f0d5c8-b411-4756-b788-805943e5523e
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjMDIyYjk1YS0yMzU1LTRlZDktODBhOC1mN2RlZjExNzFmNzUiLCJpYXQiOjE2NTMyMzAyMjgsImV4cCI6MTY1MzU5MDIyOCwiaXNzIjoibWF6Z2kgcHJvZHVjdGlvbiIsInJvbGUiOiJBRE1JTiJ9.myP0-yrcQJUo3mH5BEas25DpSHxj1mZ9f1mDhPDu2rk
+
+### Delete
+DELETE http://localhost:8080/playlist/public/f1f0d5c8-b411-4756-b788-805943e5523e/delete
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjMDIyYjk1YS0yMzU1LTRlZDktODBhOC1mN2RlZjExNzFmNzUiLCJpYXQiOjE2NTMyMzAyMjgsImV4cCI6MTY1MzU5MDIyOCwiaXNzIjoibWF6Z2kgcHJvZHVjdGlvbiIsInJvbGUiOiJBRE1JTiJ9.myP0-yrcQJUo3mH5BEas25DpSHxj1mZ9f1mDhPDu2rk
+
+### List
+GET http://localhost:8080/playlist/adm/list
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjMDIyYjk1YS0yMzU1LTRlZDktODBhOC1mN2RlZjExNzFmNzUiLCJpYXQiOjE2NTMyMzAyMjgsImV4cCI6MTY1MzU5MDIyOCwiaXNzIjoibWF6Z2kgcHJvZHVjdGlvbiIsInJvbGUiOiJBRE1JTiJ9.myP0-yrcQJUo3mH5BEas25DpSHxj1mZ9f1mDhPDu2rk
+
+### Playlist By Profile
+GET http://localhost:8080/playlist/adm/e13ec707-ca94-4b5f-a951-4e3d2632000f/list
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjMDIyYjk1YS0yMzU1LTRlZDktODBhOC1mN2RlZjExNzFmNzUiLCJpYXQiOjE2NTMyMzAyMjgsImV4cCI6MTY1MzU5MDIyOCwiaXNzIjoibWF6Z2kgcHJvZHVjdGlvbiIsInJvbGUiOiJBRE1JTiJ9.myP0-yrcQJUo3mH5BEas25DpSHxj1mZ9f1mDhPDu2rk

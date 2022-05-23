@@ -1,0 +1,22 @@
+### Add
+POST http://localhost:8080/video-tag/public
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlMTNlYzcwNy1jYTk0LTRiNWYtYTk1MS00ZTNkMjYzMjAwMGYiLCJpYXQiOjE2NTMwMjgzNjEsImV4cCI6MTY1MzM4ODM2MSwiaXNzIjoibWF6Z2kgcHJvZHVjdGlvbiIsInJvbGUiOiJBRE1JTiJ9.zXDM2m7knX1A8obFzplK-EHEk_9sCxoQ_0whSR-3WVM
+
+{
+  "videoId": "",
+  "tagId": ""
+}
+
+### Delete
+DELETE http://localhost:8080/video-tag/public/delete
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlMTNlYzcwNy1jYTk0LTRiNWYtYTk1MS00ZTNkMjYzMjAwMGYiLCJpYXQiOjE2NTMwMjgzNjEsImV4cCI6MTY1MzM4ODM2MSwiaXNzIjoibWF6Z2kgcHJvZHVjdGlvbiIsInJvbGUiOiJBRE1JTiJ9.zXDM2m7knX1A8obFzplK-EHEk_9sCxoQ_0whSR-3WVM
+
+{
+  "videoId": "",
+  "tagId": ""
+}
+
+### List
+GET http://localhost:8080/video-tag/5adc7850-2b4d-40e0-aba6-5f0d515b132c

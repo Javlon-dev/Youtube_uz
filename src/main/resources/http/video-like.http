@@ -1,0 +1,27 @@
+### Get
+GET http://localhost:8080/video-like/public/6d5fe8a3-6474-4bf4-ba36-10f777fe2a72
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlMTNlYzcwNy1jYTk0LTRiNWYtYTk1MS00ZTNkMjYzMjAwMGYiLCJpYXQiOjE2NTMwMjgzNjEsImV4cCI6MTY1MzM4ODM2MSwiaXNzIjoibWF6Z2kgcHJvZHVjdGlvbiIsInJvbGUiOiJBRE1JTiJ9.zXDM2m7knX1A8obFzplK-EHEk_9sCxoQ_0whSR-3WVM
+
+### Create
+POST http://localhost:8080/video-like/public
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlMTNlYzcwNy1jYTk0LTRiNWYtYTk1MS00ZTNkMjYzMjAwMGYiLCJpYXQiOjE2NTMwMjgzNjEsImV4cCI6MTY1MzM4ODM2MSwiaXNzIjoibWF6Z2kgcHJvZHVjdGlvbiIsInJvbGUiOiJBRE1JTiJ9.zXDM2m7knX1A8obFzplK-EHEk_9sCxoQ_0whSR-3WVM
+
+{
+  "videoId": "",
+  "type": ""
+}
+
+### Delete
+DELETE http://localhost:8080/video-like/public/ac640826-484f-41df-a446-21ae310edfe0/delete
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlMTNlYzcwNy1jYTk0LTRiNWYtYTk1MS00ZTNkMjYzMjAwMGYiLCJpYXQiOjE2NTMwMjgzNjEsImV4cCI6MTY1MzM4ODM2MSwiaXNzIjoibWF6Z2kgcHJvZHVjdGlvbiIsInJvbGUiOiJBRE1JTiJ9.zXDM2m7knX1A8obFzplK-EHEk_9sCxoQ_0whSR-3WVM
+
+### List By Profile (OWN)
+GET http://localhost:8080/video-like/public/liked-video
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlMTNlYzcwNy1jYTk0LTRiNWYtYTk1MS00ZTNkMjYzMjAwMGYiLCJpYXQiOjE2NTMwMjgzNjEsImV4cCI6MTY1MzM4ODM2MSwiaXNzIjoibWF6Z2kgcHJvZHVjdGlvbiIsInJvbGUiOiJBRE1JTiJ9.zXDM2m7knX1A8obFzplK-EHEk_9sCxoQ_0whSR-3WVM
+
+### List By Profile (ADMIN)
+GET http://localhost:8080/video-like/adm/list/2539d439-efde-4afb-9927-c99b4ea4a7c1
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlMTNlYzcwNy1jYTk0LTRiNWYtYTk1MS00ZTNkMjYzMjAwMGYiLCJpYXQiOjE2NTMwMjgzNjEsImV4cCI6MTY1MzM4ODM2MSwiaXNzIjoibWF6Z2kgcHJvZHVjdGlvbiIsInJvbGUiOiJBRE1JTiJ9.zXDM2m7knX1A8obFzplK-EHEk_9sCxoQ_0whSR-3WVM
+
+

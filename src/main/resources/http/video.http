@@ -1,0 +1,69 @@
+### Get
+GET http://localhost:8080/video/public/5adc7850-2b4d-40e0-aba6-5f0d515b132c
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjMDIyYjk1YS0yMzU1LTRlZDktODBhOC1mN2RlZjExNzFmNzUiLCJpYXQiOjE2NTMyMzAyMjgsImV4cCI6MTY1MzU5MDIyOCwiaXNzIjoibWF6Z2kgcHJvZHVjdGlvbiIsInJvbGUiOiJBRE1JTiJ9.myP0-yrcQJUo3mH5BEas25DpSHxj1mZ9f1mDhPDu2rk
+
+### Create
+POST http://localhost:8080/video/public
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjMDIyYjk1YS0yMzU1LTRlZDktODBhOC1mN2RlZjExNzFmNzUiLCJpYXQiOjE2NTMyMzAyMjgsImV4cCI6MTY1MzU5MDIyOCwiaXNzIjoibWF6Z2kgcHJvZHVjdGlvbiIsInJvbGUiOiJBRE1JTiJ9.myP0-yrcQJUo3mH5BEas25DpSHxj1mZ9f1mDhPDu2rk
+
+{
+  "title": "",
+  "videoId": "",
+  "type": "",
+  "categoryId": "",
+  "description": "",
+  "channelId": ""
+}
+
+### Update About
+PUT http://localhost:8080/video/public/db3db46c-38f5-45ee-aca3-42a394d9d0f0
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjMDIyYjk1YS0yMzU1LTRlZDktODBhOC1mN2RlZjExNzFmNzUiLCJpYXQiOjE2NTMyMzAyMjgsImV4cCI6MTY1MzU5MDIyOCwiaXNzIjoibWF6Z2kgcHJvZHVjdGlvbiIsInJvbGUiOiJBRE1JTiJ9.myP0-yrcQJUo3mH5BEas25DpSHxj1mZ9f1mDhPDu2rk
+
+{
+  "title": "",
+  "description": ""
+}
+
+### Search
+GET http://localhost:8080/video/search?search=HTML
+
+### Update Preview Photo
+PUT http://localhost:8080/video/public/preview-photo/5adc7850-2b4d-40e0-aba6-5f0d515b132c
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjMDIyYjk1YS0yMzU1LTRlZDktODBhOC1mN2RlZjExNzFmNzUiLCJpYXQiOjE2NTMyMzAyMjgsImV4cCI6MTY1MzU5MDIyOCwiaXNzIjoibWF6Z2kgcHJvZHVjdGlvbiIsInJvbGUiOiJBRE1JTiJ9.myP0-yrcQJUo3mH5BEas25DpSHxj1mZ9f1mDhPDu2rk
+
+{
+  "photoId": ""
+}
+
+### Change Status
+PUT http://localhost:8080/video/public/status/5adc7850-2b4d-40e0-aba6-5f0d515b132c
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjMDIyYjk1YS0yMzU1LTRlZDktODBhOC1mN2RlZjExNzFmNzUiLCJpYXQiOjE2NTMyMzAyMjgsImV4cCI6MTY1MzU5MDIyOCwiaXNzIjoibWF6Z2kgcHJvZHVjdGlvbiIsInJvbGUiOiJBRE1JTiJ9.myP0-yrcQJUo3mH5BEas25DpSHxj1mZ9f1mDhPDu2rk
+
+### Delete
+DELETE http://localhost:8080/video/public/f20d93f6-0103-4760-9421-ee75d42f8a40/delete
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjMDIyYjk1YS0yMzU1LTRlZDktODBhOC1mN2RlZjExNzFmNzUiLCJpYXQiOjE2NTMyMzAyMjgsImV4cCI6MTY1MzU5MDIyOCwiaXNzIjoibWF6Z2kgcHJvZHVjdGlvbiIsInJvbGUiOiJBRE1JTiJ9.myP0-yrcQJUo3mH5BEas25DpSHxj1mZ9f1mDhPDu2rk
+
+### Increase View
+PUT http://localhost:8080/video/view/5adc7850-2b4d-40e0-aba6-5f0d515b132c
+
+### Increase Share
+PUT http://localhost:8080/video/share/5adc7850-2b4d-40e0-aba6-5f0d515b132c
+
+### List By Category
+GET http://localhost:8080/video/category/2490c051-03ba-4ab6-8c96-6aaa377784d0
+
+### List By Channel
+GET http://localhost:8080/video/channel/0b3ae787-ba79-49d2-9180-1f4f22149a3d
+
+### List By Tag
+GET http://localhost:8080/video/tag/287942ab-cb73-4d8f-8e1f-caa24c5192f3
+
+### List
+GET http://localhost:8080/video/adm/list
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjMDIyYjk1YS0yMzU1LTRlZDktODBhOC1mN2RlZjExNzFmNzUiLCJpYXQiOjE2NTMyMzAyMjgsImV4cCI6MTY1MzU5MDIyOCwiaXNzIjoibWF6Z2kgcHJvZHVjdGlvbiIsInJvbGUiOiJBRE1JTiJ9.myP0-yrcQJUo3mH5BEas25DpSHxj1mZ9f1mDhPDu2rk
+
+
+

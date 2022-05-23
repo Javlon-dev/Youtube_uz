@@ -1,0 +1,27 @@
+### Get
+GET http://localhost:8080/category/a258f5e1-6022-47de-bbc4-00d43894b39c
+
+### Create
+POST http://localhost:8080/category/adm
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjMDIyYjk1YS0yMzU1LTRlZDktODBhOC1mN2RlZjExNzFmNzUiLCJpYXQiOjE2NTMyMzAyMjgsImV4cCI6MTY1MzU5MDIyOCwiaXNzIjoibWF6Z2kgcHJvZHVjdGlvbiIsInJvbGUiOiJBRE1JTiJ9.myP0-yrcQJUo3mH5BEas25DpSHxj1mZ9f1mDhPDu2rk
+
+{
+  "name": ""
+}
+
+### Update
+PUT http://localhost:8080/category/adm/a258f5e1-6022-47de-bbc4-00d43894b39c
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlMTNlYzcwNy1jYTk0LTRiNWYtYTk1MS00ZTNkMjYzMjAwMGYiLCJpYXQiOjE2NTMwMjgzNjEsImV4cCI6MTY1MzM4ODM2MSwiaXNzIjoibWF6Z2kgcHJvZHVjdGlvbiIsInJvbGUiOiJBRE1JTiJ9.zXDM2m7knX1A8obFzplK-EHEk_9sCxoQ_0whSR-3WVM
+
+{
+  "name": ""
+}
+
+### Delete
+DELETE http://localhost:8080/category/adm/a258f5e1-6022-47de-bbc4-00d43894b39c/delete
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlMTNlYzcwNy1jYTk0LTRiNWYtYTk1MS00ZTNkMjYzMjAwMGYiLCJpYXQiOjE2NTMwMjgzNjEsImV4cCI6MTY1MzM4ODM2MSwiaXNzIjoibWF6Z2kgcHJvZHVjdGlvbiIsInJvbGUiOiJBRE1JTiJ9.zXDM2m7knX1A8obFzplK-EHEk_9sCxoQ_0whSR-3WVM
+
+### List
+GET http://localhost:8080/category/public

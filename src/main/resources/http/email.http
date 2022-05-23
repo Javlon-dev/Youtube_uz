@@ -1,0 +1,7 @@
+### Show all
+GET http://localhost:8080/email/adm?page=1&size=5
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIyNTM5ZDQzOS1lZmRlLTRhZmItOTkyNy1jOTliNGVhNGE3YzEiLCJpYXQiOjE2NTI1NTU2NTcsImV4cCI6MTY1MjU1OTI1NywiaXNzIjoibWF6Z2kgcHJvZHVjdGlvbiIsInJvbGUiOiJBRE1JTiJ9.XqbgG2oMneSQzGp9uK4aAe1yBW-SoaCgdltlsC5geZk
+
+### Delete by id
+DELETE http://localhost:8080/email/adm/7b4a6499-3060-4c24-8e71-ec9fbbd4d647
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIyNTM5ZDQzOS1lZmRlLTRhZmItOTkyNy1jOTliNGVhNGE3YzEiLCJpYXQiOjE2NTI1NTU2NTcsImV4cCI6MTY1MjU1OTI1NywiaXNzIjoibWF6Z2kgcHJvZHVjdGlvbiIsInJvbGUiOiJBRE1JTiJ9.XqbgG2oMneSQzGp9uK4aAe1yBW-SoaCgdltlsC5geZk

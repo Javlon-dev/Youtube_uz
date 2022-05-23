@@ -1,0 +1,22 @@
+### Create
+POST http://localhost:8080/report/public
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjMDIyYjk1YS0yMzU1LTRlZDktODBhOC1mN2RlZjExNzFmNzUiLCJpYXQiOjE2NTMzMjUxMjcsImV4cCI6MTY1MzY4NTEyNywiaXNzIjoibWF6Z2kgcHJvZHVjdGlvbiIsInJvbGUiOiJBRE1JTiJ9.l-ZWR5KkAv5mQxHaPa50xR-ZUrI9-Ln13sT83W3ScOs
+
+{
+  "content": "",
+  "entityId": "",
+  "type": ""
+}
+
+### Pagiantion List
+GET http://localhost:8080/report/adm/list
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjMDIyYjk1YS0yMzU1LTRlZDktODBhOC1mN2RlZjExNzFmNzUiLCJpYXQiOjE2NTMzMjUxMjcsImV4cCI6MTY1MzY4NTEyNywiaXNzIjoibWF6Z2kgcHJvZHVjdGlvbiIsInJvbGUiOiJBRE1JTiJ9.l-ZWR5KkAv5mQxHaPa50xR-ZUrI9-Ln13sT83W3ScOs
+
+### Pagiantion List By Profile Id
+GET http://localhost:8080/report/adm/list/c022b95a-2355-4ed9-80a8-f7def1171f75
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjMDIyYjk1YS0yMzU1LTRlZDktODBhOC1mN2RlZjExNzFmNzUiLCJpYXQiOjE2NTMzMjUxMjcsImV4cCI6MTY1MzY4NTEyNywiaXNzIjoibWF6Z2kgcHJvZHVjdGlvbiIsInJvbGUiOiJBRE1JTiJ9.l-ZWR5KkAv5mQxHaPa50xR-ZUrI9-Ln13sT83W3ScOs
+
+### Delete
+DELETE  http://localhost:8080/report/adm/a1093dad-44ba-4e2d-a425-8f1d48d07e7f
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjMDIyYjk1YS0yMzU1LTRlZDktODBhOC1mN2RlZjExNzFmNzUiLCJpYXQiOjE2NTMzMjUxMjcsImV4cCI6MTY1MzY4NTEyNywiaXNzIjoibWF6Z2kgcHJvZHVjdGlvbiIsInJvbGUiOiJBRE1JTiJ9.l-ZWR5KkAv5mQxHaPa50xR-ZUrI9-Ln13sT83W3ScOs

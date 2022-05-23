@@ -1,0 +1,23 @@
+### Upload
+POST http://localhost:8080/attach/upload
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="file"; filename="Unidevs.png"
+
+< D:\Wallpapers\Unidevs.png
+--WebAppBoundary--
+
+### Open
+GET http://localhost:8080/attach/open/15072b34-9bf9-4e5d-935f-99b961e5ed3b
+
+### Download
+GET http://localhost:8080/attach/download/15072b34-9bf9-4e5d-935f-99b961e5ed3b
+
+### Show all
+GET http://localhost:8080/attach/adm
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjMDIyYjk1YS0yMzU1LTRlZDktODBhOC1mN2RlZjExNzFmNzUiLCJpYXQiOjE2NTMyMzAyMjgsImV4cCI6MTY1MzU5MDIyOCwiaXNzIjoibWF6Z2kgcHJvZHVjdGlvbiIsInJvbGUiOiJBRE1JTiJ9.myP0-yrcQJUo3mH5BEas25DpSHxj1mZ9f1mDhPDu2rk
+
+### Delete
+DELETE http://localhost:8080/attach/adm/15072b34-9bf9-4e5d-935f-99b961e5ed3b
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjMDIyYjk1YS0yMzU1LTRlZDktODBhOC1mN2RlZjExNzFmNzUiLCJpYXQiOjE2NTMyMzAyMjgsImV4cCI6MTY1MzU5MDIyOCwiaXNzIjoibWF6Z2kgcHJvZHVjdGlvbiIsInJvbGUiOiJBRE1JTiJ9.myP0-yrcQJUo3mH5BEas25DpSHxj1mZ9f1mDhPDu2rk

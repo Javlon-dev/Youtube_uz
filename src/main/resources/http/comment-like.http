@@ -1,0 +1,23 @@
+### Create
+POST http://localhost:8080/comment-like/public
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlMTNlYzcwNy1jYTk0LTRiNWYtYTk1MS00ZTNkMjYzMjAwMGYiLCJpYXQiOjE2NTMyMTIyNjIsImV4cCI6MTY1MzU3MjI2MiwiaXNzIjoibWF6Z2kgcHJvZHVjdGlvbiIsInJvbGUiOiJBRE1JTiJ9.t0CbmU0ueoPuY2xv1lpoLPdAdIgROBaplRFpmx7Cat8
+
+{
+  "commentId": "",
+  "type": ""
+}
+
+### Delete
+DELETE http://localhost:8080/comment-like/public/bba2877b-9a2b-4a24-8752-dade70062f39/delete
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlMTNlYzcwNy1jYTk0LTRiNWYtYTk1MS00ZTNkMjYzMjAwMGYiLCJpYXQiOjE2NTMyMTIyNjIsImV4cCI6MTY1MzU3MjI2MiwiaXNzIjoibWF6Z2kgcHJvZHVjdGlvbiIsInJvbGUiOiJBRE1JTiJ9.t0CbmU0ueoPuY2xv1lpoLPdAdIgROBaplRFpmx7Cat8
+
+### List By Profile (OWN)
+GET http://localhost:8080/comment-like/public/liked-comment
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlMTNlYzcwNy1jYTk0LTRiNWYtYTk1MS00ZTNkMjYzMjAwMGYiLCJpYXQiOjE2NTMyMTIyNjIsImV4cCI6MTY1MzU3MjI2MiwiaXNzIjoibWF6Z2kgcHJvZHVjdGlvbiIsInJvbGUiOiJBRE1JTiJ9.t0CbmU0ueoPuY2xv1lpoLPdAdIgROBaplRFpmx7Cat8
+
+### List By Profile (ADMIN)
+GET http://localhost:8080/comment-like/adm/list/e13ec707-ca94-4b5f-a951-4e3d2632000f
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlMTNlYzcwNy1jYTk0LTRiNWYtYTk1MS00ZTNkMjYzMjAwMGYiLCJpYXQiOjE2NTMyMTIyNjIsImV4cCI6MTY1MzU3MjI2MiwiaXNzIjoibWF6Z2kgcHJvZHVjdGlvbiIsInJvbGUiOiJBRE1JTiJ9.t0CbmU0ueoPuY2xv1lpoLPdAdIgROBaplRFpmx7Cat8
+
+

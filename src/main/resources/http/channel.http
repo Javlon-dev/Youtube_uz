@@ -1,0 +1,56 @@
+### Get
+GET http://localhost:8080/channel/0b3ae787-ba79-49d2-9180-1f4f22149a3d
+
+### Create
+POST http://localhost:8080/channel/public
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjMDIyYjk1YS0yMzU1LTRlZDktODBhOC1mN2RlZjExNzFmNzUiLCJpYXQiOjE2NTMyMzQyNTgsImV4cCI6MTY1MzU5NDI1OCwiaXNzIjoibWF6Z2kgcHJvZHVjdGlvbiIsInJvbGUiOiJBRE1JTiJ9.lmfogBJlTqSOa_hp4CHWBDy8MiwolFopk5mJh55jC5E
+
+{
+  "name": "",
+  "description": ""
+}
+
+### Update Bio
+PUT http://localhost:8080/channel/public/0d664c18-c53a-41e6-b4f8-1c8d84273450
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjMDIyYjk1YS0yMzU1LTRlZDktODBhOC1mN2RlZjExNzFmNzUiLCJpYXQiOjE2NTMyMzQyNTgsImV4cCI6MTY1MzU5NDI1OCwiaXNzIjoibWF6Z2kgcHJvZHVjdGlvbiIsInJvbGUiOiJBRE1JTiJ9.lmfogBJlTqSOa_hp4CHWBDy8MiwolFopk5mJh55jC5E
+
+{
+  "name": "",
+  "description": ""
+}
+
+### Image
+PUT http://localhost:8080/channel/public/image/0b3ae787-ba79-49d2-9180-1f4f22149a3d
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjMDIyYjk1YS0yMzU1LTRlZDktODBhOC1mN2RlZjExNzFmNzUiLCJpYXQiOjE2NTMyMzQyNTgsImV4cCI6MTY1MzU5NDI1OCwiaXNzIjoibWF6Z2kgcHJvZHVjdGlvbiIsInJvbGUiOiJBRE1JTiJ9.lmfogBJlTqSOa_hp4CHWBDy8MiwolFopk5mJh55jC5E
+
+{
+  "id": ""
+}
+
+### Banner
+PUT http://localhost:8080/channel/public/banner/0d664c18-c53a-41e6-b4f8-1c8d84273450
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjMDIyYjk1YS0yMzU1LTRlZDktODBhOC1mN2RlZjExNzFmNzUiLCJpYXQiOjE2NTMyMzQyNTgsImV4cCI6MTY1MzU5NDI1OCwiaXNzIjoibWF6Z2kgcHJvZHVjdGlvbiIsInJvbGUiOiJBRE1JTiJ9.lmfogBJlTqSOa_hp4CHWBDy8MiwolFopk5mJh55jC5E
+
+{
+  "id": ""
+}
+
+### Profile Channel List
+GET http://localhost:8080/channel/public/list
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjMDIyYjk1YS0yMzU1LTRlZDktODBhOC1mN2RlZjExNzFmNzUiLCJpYXQiOjE2NTMyMzQyNTgsImV4cCI6MTY1MzU5NDI1OCwiaXNzIjoibWF6Z2kgcHJvZHVjdGlvbiIsInJvbGUiOiJBRE1JTiJ9.lmfogBJlTqSOa_hp4CHWBDy8MiwolFopk5mJh55jC5E
+
+### Delete
+DELETE http://localhost:8080/channel/public/a2116ff1-246d-4a5c-8240-faca64efcad3/delete
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjMDIyYjk1YS0yMzU1LTRlZDktODBhOC1mN2RlZjExNzFmNzUiLCJpYXQiOjE2NTMyMzQyNTgsImV4cCI6MTY1MzU5NDI1OCwiaXNzIjoibWF6Z2kgcHJvZHVjdGlvbiIsInJvbGUiOiJBRE1JTiJ9.lmfogBJlTqSOa_hp4CHWBDy8MiwolFopk5mJh55jC5E
+
+### Change Status
+PUT http://localhost:8080/channel/public/status/0b3ae787-ba79-49d2-9180-1f4f22149a3d
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjMDIyYjk1YS0yMzU1LTRlZDktODBhOC1mN2RlZjExNzFmNzUiLCJpYXQiOjE2NTMyMzQyNTgsImV4cCI6MTY1MzU5NDI1OCwiaXNzIjoibWF6Z2kgcHJvZHVjdGlvbiIsInJvbGUiOiJBRE1JTiJ9.lmfogBJlTqSOa_hp4CHWBDy8MiwolFopk5mJh55jC5E
+
+### List
+GET http://localhost:8080/channel/adm/list
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjMDIyYjk1YS0yMzU1LTRlZDktODBhOC1mN2RlZjExNzFmNzUiLCJpYXQiOjE2NTMyMzQyNTgsImV4cCI6MTY1MzU5NDI1OCwiaXNzIjoibWF6Z2kgcHJvZHVjdGlvbiIsInJvbGUiOiJBRE1JTiJ9.lmfogBJlTqSOa_hp4CHWBDy8MiwolFopk5mJh55jC5E

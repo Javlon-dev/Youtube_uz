@@ -1,0 +1,63 @@
+### Get by id
+GET http://localhost:8080/profile/2539d439-efde-4afb-9927-c99b4ea4a7c1
+
+### Update
+PUT http://localhost:8080/profile/public
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlMTNlYzcwNy1jYTk0LTRiNWYtYTk1MS00ZTNkMjYzMjAwMGYiLCJpYXQiOjE2NTMwMjgzNjEsImV4cCI6MTY1MzM4ODM2MSwiaXNzIjoibWF6Z2kgcHJvZHVjdGlvbiIsInJvbGUiOiJBRE1JTiJ9.zXDM2m7knX1A8obFzplK-EHEk_9sCxoQ_0whSR-3WVM
+
+{
+  "name": "",
+  "surname": ""
+}
+
+### Image
+PUT http://localhost:8080/profile/public/image
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlMTNlYzcwNy1jYTk0LTRiNWYtYTk1MS00ZTNkMjYzMjAwMGYiLCJpYXQiOjE2NTMwMjgzNjEsImV4cCI6MTY1MzM4ODM2MSwiaXNzIjoibWF6Z2kgcHJvZHVjdGlvbiIsInJvbGUiOiJBRE1JTiJ9.zXDM2m7knX1A8obFzplK-EHEk_9sCxoQ_0whSR-3WVM
+
+{
+  "id": ""
+}
+
+### Email Reset
+PUT http://localhost:8080/profile/public/email
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlMTNlYzcwNy1jYTk0LTRiNWYtYTk1MS00ZTNkMjYzMjAwMGYiLCJpYXQiOjE2NTMwMjgzNjEsImV4cCI6MTY1MzM4ODM2MSwiaXNzIjoibWF6Z2kgcHJvZHVjdGlvbiIsInJvbGUiOiJBRE1JTiJ9.zXDM2m7knX1A8obFzplK-EHEk_9sCxoQ_0whSR-3WVM
+
+{
+  "email": ""
+}
+
+### Change Password
+PUT http://localhost:8080/profile/public/change
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlMTNlYzcwNy1jYTk0LTRiNWYtYTk1MS00ZTNkMjYzMjAwMGYiLCJpYXQiOjE2NTMwMjgzNjEsImV4cCI6MTY1MzM4ODM2MSwiaXNzIjoibWF6Z2kgcHJvZHVjdGlvbiIsInJvbGUiOiJBRE1JTiJ9.zXDM2m7knX1A8obFzplK-EHEk_9sCxoQ_0whSR-3WVM
+
+{
+  "oldPassword" : "",
+  "newPassword": ""
+}
+
+### ADMIN Create
+POST http://localhost:8080/profile/adm
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlMTNlYzcwNy1jYTk0LTRiNWYtYTk1MS00ZTNkMjYzMjAwMGYiLCJpYXQiOjE2NTMwMjgzNjEsImV4cCI6MTY1MzM4ODM2MSwiaXNzIjoibWF6Z2kgcHJvZHVjdGlvbiIsInJvbGUiOiJBRE1JTiJ9.zXDM2m7knX1A8obFzplK-EHEk_9sCxoQ_0whSR-3WVM
+
+{
+  "name" : "",
+  "surname" : "",
+  "email" : "",
+  "password" : "",
+  "role": ""
+}
+
+### ADMIN List
+GET http://localhost:8080/profile/adm
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlMTNlYzcwNy1jYTk0LTRiNWYtYTk1MS00ZTNkMjYzMjAwMGYiLCJpYXQiOjE2NTMwMjgzNjEsImV4cCI6MTY1MzM4ODM2MSwiaXNzIjoibWF6Z2kgcHJvZHVjdGlvbiIsInJvbGUiOiJBRE1JTiJ9.zXDM2m7knX1A8obFzplK-EHEk_9sCxoQ_0whSR-3WVM
+
+### ADMIN Delete
+DELETE http://localhost:8080/profile/adm/23ce2734-564c-46e5-bd16-1f702aaac0e7/delete
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJlMTNlYzcwNy1jYTk0LTRiNWYtYTk1MS00ZTNkMjYzMjAwMGYiLCJpYXQiOjE2NTMwMjgzNjEsImV4cCI6MTY1MzM4ODM2MSwiaXNzIjoibWF6Z2kgcHJvZHVjdGlvbiIsInJvbGUiOiJBRE1JTiJ9.zXDM2m7knX1A8obFzplK-EHEk_9sCxoQ_0whSR-3WVM
+
+

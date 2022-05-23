@@ -1,0 +1,31 @@
+### Create
+POST http://localhost:8080/subscription/public
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjMDIyYjk1YS0yMzU1LTRlZDktODBhOC1mN2RlZjExNzFmNzUiLCJpYXQiOjE2NTMyMzQyNTgsImV4cCI6MTY1MzU5NDI1OCwiaXNzIjoibWF6Z2kgcHJvZHVjdGlvbiIsInJvbGUiOiJBRE1JTiJ9.lmfogBJlTqSOa_hp4CHWBDy8MiwolFopk5mJh55jC5E
+
+{
+  "channelId": ""
+}
+
+### Change Status
+PUT http://localhost:8080/subscription/public/cd1613e4-9f93-4f3b-b760-ee3613b38ced
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjMDIyYjk1YS0yMzU1LTRlZDktODBhOC1mN2RlZjExNzFmNzUiLCJpYXQiOjE2NTMyMzQyNTgsImV4cCI6MTY1MzU5NDI1OCwiaXNzIjoibWF6Z2kgcHJvZHVjdGlvbiIsInJvbGUiOiJBRE1JTiJ9.lmfogBJlTqSOa_hp4CHWBDy8MiwolFopk5mJh55jC5E
+
+
+### Change Notification Type
+PUT http://localhost:8080/subscription/public/notification
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjMDIyYjk1YS0yMzU1LTRlZDktODBhOC1mN2RlZjExNzFmNzUiLCJpYXQiOjE2NTMyMzQyNTgsImV4cCI6MTY1MzU5NDI1OCwiaXNzIjoibWF6Z2kgcHJvZHVjdGlvbiIsInJvbGUiOiJBRE1JTiJ9.lmfogBJlTqSOa_hp4CHWBDy8MiwolFopk5mJh55jC5E
+
+{
+  "channelId": "",
+  "notificationType": ""
+}
+
+### Subscription List By Profile (OWN)
+GET http://localhost:8080/subscription/public
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjMDIyYjk1YS0yMzU1LTRlZDktODBhOC1mN2RlZjExNzFmNzUiLCJpYXQiOjE2NTMyMzQyNTgsImV4cCI6MTY1MzU5NDI1OCwiaXNzIjoibWF6Z2kgcHJvZHVjdGlvbiIsInJvbGUiOiJBRE1JTiJ9.lmfogBJlTqSOa_hp4CHWBDy8MiwolFopk5mJh55jC5E
+
+### Subscription List By Profile (ADMIN)
+GET http://localhost:8080/subscription/adm/c022b95a-2355-4ed9-80a8-f7def1171f75
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjMDIyYjk1YS0yMzU1LTRlZDktODBhOC1mN2RlZjExNzFmNzUiLCJpYXQiOjE2NTMyMzQyNTgsImV4cCI6MTY1MzU5NDI1OCwiaXNzIjoibWF6Z2kgcHJvZHVjdGlvbiIsInJvbGUiOiJBRE1JTiJ9.lmfogBJlTqSOa_hp4CHWBDy8MiwolFopk5mJh55jC5E
